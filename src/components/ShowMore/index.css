@@ -1,0 +1,31 @@
+.total-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.show-more-btn {
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 110px;
+  height: 40px;
+  font-weight: 600;
+  background-color: #1255f0;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+.content-display-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}

@@ -1,0 +1,68 @@
+/* Write your CSS code here */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.logo-and-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+  margin-right: 300px;
+}
+
+.header-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+  border: 0;
+  background-color: #c4caf0;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px 10px 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-blue-color {
+  background-color: #2b4eb6;
+}
+
+.btn-grey-color {
+  background-color: #81859e;
+}
+
+.route-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cars-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1100px;
+  height: 800px;
+  margin-top: 48px;
+}
